@@ -1,0 +1,16 @@
+This repository is currently private because it supports an ongoing research paper.
+Access may be granted upon request via email. Please do not redistribute or share the materials.
+
+## Project Overview
+
+This project implements an end-to-end pipeline for the analysis of gene fusion events, which are structural DNA rearrangements known to play a key role in cancer development.
+
+The pipeline covers the full workflow from raw fusion data to functional interpretation and oncogenicity assessment. Its main components include:
+
+- Initial data cleaning and preprocessing for downstream analysis
+- Sequence mapping from transcripts to genomic DNA to assess retained and lost regions
+- Retrieval of key protein domains using both a standard annotation tool and a novel proposed method
+- Expression analysis based on Arriba gene fusion detection outputs
+- Functional impact assessment through the generation of biologically informed flags
+- Gene fusion categorization based on structural, functional, and expression features
+- Oncogenicity prediction using a PU-graph model (positive–unlabeled graph learning), adopted due to the absence of reliable negative ground-truth labels
